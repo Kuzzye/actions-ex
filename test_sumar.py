@@ -9,4 +9,4 @@ def test_restar():
 	assert restar(4, 2) == 2
 
 def test_multiplicar():
-	assert mukltiplicar(3, 2) == 6
+	assert multiplicar(3, 2) == 6
