@@ -35,4 +35,4 @@ jobs:
           source bigdata/bin/activate
           pip install -r requirements.txt
       - name: run test
-        run: pip freeze
+        run: pytest
