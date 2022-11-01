@@ -35,4 +35,7 @@ jobs:
           source bigdata/bin/activate
           pip install -r requirements.txt
       - name: run test
-        run: pytest
+        run: |
+          source bigdata/bin/activate
+          pytest
+        
