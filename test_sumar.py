@@ -1,5 +1,5 @@
 import pytest
-from main import sumar, restar
+from main import sumar, restar, multiplicar
 
 
 def test_sumar():
@@ -7,3 +7,6 @@ def test_sumar():
 
 def test_restar():
 	assert restar(4, 2) == 2
+
+def test_multiplicar():
+	assert mukltiplicar(3, 2) == 6
